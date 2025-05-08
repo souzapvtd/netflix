@@ -3,9 +3,33 @@
     --branco-secundário: #F9F9F9;
     --cor-de-fundo: #00030C;
     --botao-vermelho: #B90000;
+    --botao-transparente: #F9F9F9;
+
     }
 body{ 
     background-color: var(--cor-de-fundo);
     color: var(--vermelho-principal);
 }
 
+.principal {
+    background-image: url(img/image\ 09.png);
+    background-repeat: no-repeat;
+    
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    }
+    .container__botao{
+        background-color: var(--botao-vermelho);
+        border-radius: 8px;
+        padding: 1em;
+        color: var(--branco-secundário);
+        display: block;
+    }
+
+    .botao__secundario{
+        background-color: transparent;
+        border: 2px solid var(--botao-transparente)
+    }
