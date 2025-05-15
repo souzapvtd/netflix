@@ -12,13 +12,14 @@ body{
     color: var(--vermelho-principal);
     font-family:var(--fonte-primária);
     font-size: 16px;
-    font-weight: 400;
 }
 
 .principal {
-    background-image: url(img/image\ 09.png);
+    background-image: url(img/image\ 9\ \(1\).png);
     background-repeat: no-repeat;
-    
+    background-size: contain;
+    margin-left: 3.5em;
+    text-align: center;
 }
 .container{
     height: 100vh;
@@ -33,9 +34,21 @@ body{
         color: var(--branco-secundário);
         display: block;
         text-decoration: none;
+    
     }
 
     .botao__secundario{
         background-color: transparent;
-        border: 2px solid var(--botao-transparente)
+        border: 2px solid var(--botao-transparente);
+        margin: 1em 0 0 0;
+    }
+
+    .container__titulo{
+        font-size: 28px;
+        font-weight: 700;
+
+    }
+
+    .container__imagem{
+        margin: 2em 10 10px 20;
     }
